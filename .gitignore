@@ -1,0 +1,50 @@
+# VSCode / PyCharm / JetBrains IDEs
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.swp
+workspace.xml
+/shelf/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# ChromeDriver or WebDrivers
+chromedriver.exe
+chromedriver.log
+
+# Output files
+*.csv
+*.json
+output/
+
+# API keys, config
+config.json
+secrets.json
+*.key
+*.pem
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
